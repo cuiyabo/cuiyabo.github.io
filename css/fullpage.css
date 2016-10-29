@@ -1,0 +1,259 @@
+  body,ul,li,ol,dl,dt,dd,p,pre,h1,h2,h3,h4,h5,h6,input{
+	margin: 0 ;
+	padding: 0;
+	list-style-type:none;
+}
+
+img{
+	border: 0 ;
+}
+a{
+	text-decoration: none;
+}
+/*下拉按钮*/
+.two{
+	position: absolute;
+	background:rgba(255,255,255,0.05);
+	width: 100%;
+	height: 126px;
+	left: 0;
+	bottom: 0;
+}
+
+.two img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+}
+/*顶部*/
+
+/*背景图片*/
+#box .section:nth-of-type(1){
+	background: #CED7DF;
+	position: relative;
+}
+#box .section:nth-of-type(2){
+	background:#76B852;
+	position: relative;
+
+}
+#box .section:nth-of-type(3){
+	background:#323B43;
+	position: relative;
+
+}
+#box .section:nth-of-type(4){
+	background:#CED7DF;
+	position: relative;
+
+}
+/*动画第一个*/
+.one-b{
+	position: absolute;
+	top: 60px;
+	left: 100px;
+	animation:feiji 1s ease 0s infinite alternate;
+}
+@keyframes feiji{
+	0%{
+		transform:translateY(0);
+	}
+	100%{
+		transform:translateY(-10px);
+	}
+}
+.two img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	animation:jt 0.8s ease 0s infinite alternate;
+
+}
+@keyframes jt{
+	0%{
+		transform:translateY(0);
+		opacity: 1;
+	}
+	100%{
+		transform:translateY(-20px);
+		opacity: 0.5;
+
+	}
+}
+
+/*第一个*/
+.box-a{
+	width: 1200px;
+	height: 100%;
+	/*background: red;*/
+	margin: 0 auto;
+	position: relative;
+}
+.box-a-wz{
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	width: 350px;
+	height: 100px;
+	/*background: blue;*/
+	text-align: center;
+	line-height: 100px;
+}
+.box-a-wz a span{
+	font-size: 50px;
+	color: #000;
+	font-family: '黑体';
+}
+.box-a-wza{
+	position: absolute;
+	width: 350px;
+	height: 300px;
+	bottom: 150px;
+	left: 50px;
+	/*background: yellow;*/
+}
+.box-a-kk{
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 250px;
+	height: 30px;
+	background: #fff;
+}
+.box-a-kk a{
+	color: #323B43;
+	font-family: '黑体';
+	font-size: 20px;
+
+}
+.geren{
+	width: 400px;
+	height: 470px;
+	/*background: blue;*/
+	position: absolute;
+	top: 30px;
+	right: 150px;
+}
+.geren img{
+	width: 100%;
+}
+
+/*第二个*/
+.box-b{
+	position: absolute;
+	top: 50px;
+	left: 200px;
+	width: 300px;
+	height: 100px;
+	/*background: red;*/
+	/*margin: 0 auto;*/
+}
+.box-b span{
+	font-size: 50px;
+	font-family: '黑体';
+}
+section{ 
+	color: #FFFFFF;
+	border-width: 1px; 
+	border-style: solid; 
+}
+
+/*第三个*/
+.box-c{
+	position: absolute;
+	top: 50px;
+	left: 200px;
+	width: 300px;
+	height: 100px;
+	/*background: red;*/
+	/*margin: 0 auto;*/
+}
+.box-c span{
+	font-size: 50px;
+	font-family: '黑体';
+}
+.box-c-a{
+	float: left;
+	margin-left: 120px;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: #CED7DF;
+	text-align: center;
+	line-height: 200px;
+}
+.box-c-a-a{
+	float: left;
+	margin-left: 25px;
+	margin-top: 25px;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background: #323B43;
+	text-align: center;
+	line-height: 150px;
+}
+.box-c-a span{
+	font-size: 50px;
+}
+.box-c-b{
+	float: left;
+	margin-left: 120px;
+	margin-top: 20px;
+	width: 200px;
+	height: 70px;
+	background: #fff;
+	text-align: center;
+	line-height: 70px;
+}
+.box-c-b span{
+	font-size: 30px;
+	font-family: '黑体';
+	font-weight: bold;
+}
+
+
+
+
+
+
+/*第四个*/
+.box-d{
+	position: absolute;
+	top: 50px;
+	left: 200px;
+	width: 300px;
+	height: 100px;
+	/*background: red;*/
+	/*margin: 0 auto;*/
+}
+.box-d span{
+	font-size: 50px;
+	font-family: '黑体';
+}
+.shangbiao{
+	position: absolute;
+	bottom:20px;
+	right: 20px;
+
+}
+.box-d-a{
+	position: absolute;
+	top: 120px;
+	left:200px;
+	width: 250px;
+	height: 300px;
+	margin: 0 auto;
+	/*background: red;*/
+}
+.box-d-a span{
+	font-size: 20px;
+	color: #888;
+	font-family: '黑体';
+	font-weight: bold;
+}
+.box-d-tp{
+	position: absolute;
+	top: 100px;
+	right: 200px;
+}
