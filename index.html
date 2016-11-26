@@ -1,139 +1,242 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html lang="en">
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-	<title>崔亚波个人主页</title>
-	<meta	name='viewport' content="width=device-width">
-		
-		<meta name='apple-mobile-web-app-capable' content="yes"/>
-		<meta name='apple-mobile-web-app-status-bar-style' content="black"/>
-		<meta name='apple-mobile-web-app-title' content="todo"/>
-		<link rel="apple-touch-icon" href="apple-touch-icon.png" />
-		<meta name='mobile-web-app-capable' content="yes"/>
-		<meta name='application-name' content="todo"/>
-		<meta name='them-color' contet='#2F3BA2'/>
-		<link rel="icon" href="img/192.png" sizes='192*192' />	
-		
-
-	<link rel="stylesheet" href="css/jquery.fullPage.css">
-	<script src="js/jquery-1.8.3.min.js"></script>
-	<script src="js/jquery.fullPage.js"></script>
-	<script src="js/jquery.fullPage.min.js"></script>
-	<link rel="stylesheet" href="css/fullpage.css">
-
-	<link rel="stylesheet" href="jss/jquery.zySlide.css">
-	
-	
-	
-	<script>
-		$(function(){
-		    $('#box').fullpage({
-				'navigation': true,
-				navigationTooltips:['个人主页','生活写照','个人技能掌握','专业技能']
+<title>Recoup  a Personal Portfolio Category Flat Bootstarp Resposive Website Template | Home :: w3layouts</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Recoup Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link rel="stylesheet" href="css/swipebox.css">
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/move-top.js"></script>
+       <script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+				});
 			});
-			$('.two').click(function(){
-				$.fn.fullpage.moveSectionDown();
-			})
+		</script>
+		<script type="text/javascript">
+		$(document).ready(function() {
+				/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+				*/
+		$().UItoTop({ easingType: 'easeOutQuart' });
+});
+</script>
+<!------ Light Box ------>
+    <script src="js/jquery.swipebox.min.js"></script> 
+    <script type="text/javascript">
+		jQuery(function($) {
+			$(".swipebox").swipebox();
 		});
 	</script>
+    <!------ Eng Light Box ------>
+
 </head>
 <body>
-
-	<div id='box'>
-	    <div class="section">
-	    	<div class='one-b'>
-					<img src="img/10.png" alt="">
-				</div>
-	    	<div class='box-a'>
-	    		<div class='box-a-wz'>
-	    			<a href="">
-	    				<span>个人主页</span>
-	    			</a>
-	    		</div>
-				<div class='box-a-wza'>
-					<div class='box-a-kk'><a href="">姓名：崔亚波</a></div>
-					<div class='box-a-kk'><a href="">年龄：21岁</a></div>
-					<div class='box-a-kk'><a href="">籍贯：山西阳泉</a></div>
-					<div class='box-a-kk'><a href="">生日：1995年9月12日</a></div>
-					<div class='box-a-kk'><a href="">个人爱好：唱歌、制作游戏</a></div>
-				</div>
-				<div class='geren'><img src="img/geren.jpg" alt=""></div>
-				<div id='lj'>
-					<span>作品:</span>
-		    		<a href="cuiyabo.github.io/gm">国美在线</a>
-		    		<a href="cuiyabo.github.io/yd">中国移动</a>
-		    		<a href="cuiyabo.github.io/yt">银泰</a>
-	    		</div>
-	    	</div>
-
-			<div class='two'>
-					<img src="img/2.png" alt="">
+<!-- header -->
+	<div class="banner">
+		<div class="container">
+			<div class="logo">
+				<h1><a href="index.html">个人主页</a></h1>
+			</div>	
+			<div class="banner-info">
+				<h2>你好,我叫崔亚波</h2>
+				<h3>欢迎！！！！</h3>
 			</div>
-			
-	    </div>
-	    <div class="section">
-	    	<div class='one-b'>
-					<img src="img/10.png" alt="">
-				</div>
-	    	<div class='box-b'><span>生活写照</span></div>
-		    <div id="Slide1" class="zy-Slide">
-		<!--prev:元素中的文本通常会保留空格和换行符。而文本也会呈现为等宽字体。-->
-				<section>前一张</section>
-				<section>后一张</section>
-				<ul>
-					<!--alt + shift : 可以创建一个矩形选择区域-->
-					<li><img src="img/geren.jpg" /></li>
-					<li><img src="img/geren.jpg" /></li>
-					<li><img src="img/geren.jpg" /></li>
-					<li><img src="img/geren.jpg" /></li>
-					<li><img src="img/geren.jpg" /></li>
-					<li><img src="img/geren.jpg" /></li>
-					<li><img src="img/geren.jpg" /></li>
-				</ul>
-			</div>
-	    	
-	    	<div class='two'>
-					<img src="img/2.png" alt="">
-			</div>
-	    </div>
-	    <div class="section">
-	    	<div class='one-b'>
-					<img src="img/10.png" alt="">
-				</div>
-	    	<div class='box-c'><span>个人技能掌握</span></div>
-		    	<div class='box-c-a'><div class='box-c-a-a'><span>99%</span></div></div>
-		    	<div class='box-c-a'><div class='box-c-a-a'><span>99%</span></div></div>
-		    	<div class='box-c-a'><div class='box-c-a-a'><span>99%</span></div></div>
-		    	<div class='box-c-a'><div class='box-c-a-a'><span>99%</span></div></div>
-	    	<div class='box-c-b'><span>HTML/CSS</span></div>
-	    	<div class='box-c-b'><span>UI/AI</span></div>
-	    	<div class='box-c-b'><span>JS/jQuery</span></div>
-	    	<div class='box-c-b'><span>PHP数据库</span></div>
-	    	<div class='two'>
-					<img src="img/2.png" alt="" >
-			</div>
-	       
-	    </div>
-	    <div class="section">
-	    	<div class='one-b'>
-					<img src="img/10.png" alt="">
-				</div>
-	    	<div class='box-d'><span>前端的认识</span></div>
-	    	<div class='box-d-a'>
-	    		<span>  WEB前端是由网页设计与制作发展而来的，随着工作的细化，需要有人完成美工图到网页的制作，从而出现了WEB前端开发这个词。</br>  
-	    			WEB前端开发主要是使用HTML、CSS、JavaScript技术，将美工提供的美工图转化为网页。同时，需要顾及SEO以及后台的数据。</br>WEB前端，相当于是一个连接美工、后台以及用户的中间平台。</span>
-	    	</div>
-	    	<img src="img/web.jpg" alt="" class='box-d-tp'>
-
-	    	<div class='shangbiao'>
-	    		<span>易尚客工作室</span>
-	    	</div>
-	    	
 		</div>
 	</div>
-	
+<!-- header -->
+<!-- about -->
+				<div class="scroll">
+					<a href="#contact" class="scroll"><img src="images/down.png" class="img-responsive" alt=""></a>
+				</div>
+	<div class="about">
+		<div class="container">
+			<h3>我的技能</h3>
+			<div class="study2">
+			<div class="col-md-6 about-left">
+						<h4>html</h4>
+							<div class="progress">
+							  <div class="progress-bar progress-bar-danger-3" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+								<span class="sr-only">40% Complete (success)</span>
+							  </div>
+							</div>
+						<h4>css</h4>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-danger-3" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+							<span class="sr-only">20% Complete</span>
+						  </div>
+						</div>
+						<h4>js</h4>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-danger-3" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
+							<span class="sr-only">30% Complete (warning)</span>
+						  </div>
+						</div>
+						<h4>php</h4>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-danger-3" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+							<span class="sr-only">50% Complete (danger)</span>
+						  </div>
+						</div>
+					</div>
+					<div class="col-md-6 about-right">
+						<h4>jquery</h4>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-danger-3" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+							<span class="sr-only">70% Complete (danger)</span>
+						  </div>
+						</div>
+						<h4>angular</h4>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-danger-3" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+							<span class="sr-only">60% Complete (danger)</span>
+						  </div>
+						</div>
+						<h4>ajax</h4>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-danger-3" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+							<span class="sr-only">90% Complete (danger)</span>
+						  </div>
+						</div>
+						<h4>h5</h4>
+							<div class="progress">
+							  <div class="progress-bar progress-bar-danger-3" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+								<span class="sr-only">75% Complete (success)</span>
+							  </div>
+							</div>
+					</div>
+		</div>
+	</div>
+	</div>
+<!-- about -->
+<!-- services -->
+	<div class="services">
+		<div class="container">
+			<h3>我的能力</h3>
+			<div class="service-grids">
+							<div class="col-md-4 service-grid">
+									<span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+								<h4>生活上</h4>
+								<span> </span>
+								<p> 在生活上，养成了良好的生活习惯，生活充实而有条理，有严谨的生活态度和良好的生活作风，为人热情大方，诚实守信，乐于助人，拥有自己的良好出事原则，能与他人和睦相处</p>
+							</div>
+							<div class="col-md-4 service-grid">
+								<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+								<h4>学习上</h4>
+								<span> </span>
+								<p>有属于自己的一套学习方法，对现在互联网的一些新科技也有所了解，能跟上时代的潮流与发展，能尽快的适应这个互联网发展这么快的社会。</p>
+							</div>
+							<div class="col-md-4 service-grid">
+								<span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span>
+								<h4>工作上</h4>
+								<span> </span>
+								<p>工作认真负责，积极主动，能吃苦耐劳，用于承受压力，勇于创新；有很强的组织能力和团队协作精神，具有较强的适应能力；纪律性强，工作积极配合；意志坚强，具有较强的无私奉献精神。</p>
+							</div>
+							
+							<div class="clearfix"> </div>
+						</div>
+		</div>
+	</div>
+<!-- services -->
+<!-- portfolio -->
+	<div class="gallery">
+		<div class="container">
+			<h3>我的作品</h3>
+			<div class="portfolio">
+					<div id="portfoliolist">
+					<div class="portfolio card mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="card" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper grid_box">		
+							 <a href="images/11.png" class="swipebox"  title="京东商城"> <img src="images/11.png" class="img-responsive" alt=""><span class="zoom-icon"></span> </a>
+		                </div>
+					</div>				
+					<div class="portfolio app mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="app" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper grid_box">		
+							 <a href="images/22.png" class="swipebox"  title="中国移动"> <img src="images/22.png" class="img-responsive" alt=""><span class="zoom-icon"></span> </a>
+		                </div>
+					</div>					
+					<div class="portfolio icon mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="icon" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper grid_box">		
+							 <a href="images/33.png" class="swipebox"  title="广州欢腾鞋业	"> <img src="images/33.png" class="img-responsive" alt=""><span class="zoom-icon"></span> </a>
+		                </div>
+					</div>
+					<div class="portfolio app mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="app" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper grid_box">		
+							 <a href="images/44.png" class="swipebox"  title="国美在线"> <img src="images/44.png" class="img-responsive" alt=""><span class="zoom-icon"></span> </a>
+		                </div>
+					</div>			
+					<div class="portfolio card mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="card" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper grid_box">		
+							 <a href="images/55.png" class="swipebox"  title="五子棋"> <img src="images/55.png" class="img-responsive" alt=""><span class="zoom-icon"></span> </a>
+		                </div>
+					</div>	
+					<div class="portfolio card mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="card" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper grid_box">		
+							 <a href="images/66.jpg" class="swipebox"  title="APP"> <img src="images/66.jpg" class="img-responsive" alt=""><span class="zoom-icon"></span> </a>
+		                </div>
+					</div>	
+					<div class="portfolio icon mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="icon" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper grid_box">		
+							 <a href="images/77.jpg"   class="swipebox"  title="知乎APP"> <img src="images/77.jpg" class="img-responsive" alt=""><span class="zoom-icon"></span> </a>
+		                </div>
+						</div>
+					<div class="portfolio logos mix_all wow bounceIn" data-wow-delay="0.4s" data-cat="logos" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper grid_box">		
+							 <a href="images/88.png" class="swipebox"  title="银泰购物"> <img src="images/88.png" class="img-responsive" alt=""><span class="zoom-icon"></span> </a>
+		                </div>
+					</div>
+				<div class="clearfix"></div>					
+				</div>
+		  <div class="clearfix"></div>
+			</div>
+
+		</div>
+	</div>
+<!-- portfolio -->	
+
+<!-- contact -->
+	<div class="contact" id="contact">
+		<div class="container">
+			<h3>联系方式</h3>
+			<div class="footer-left">
+				<li><i class="add"> </i>山西</li>
+				<li><i class="phone"> </i>13620633554</li>
+				<li><a href="mailto:info@example.com"><i class="mail"> </i>13620633554@163.com </a></li>
+			<div class="soci">
+					<ul>
+						<li><a href="#"><i class="facebk"> </i></a></li>
+						<li><a href="#"><i class="twter"> </i></a></li>
+						<li><a href="#"><i class="goopl"> </i></a></li>
+						<li><a href="#"><i class="insta"> </i></a></li>
+							<div class="clearfix"></div>	
+					</ul>
+			</div>
+			</div>			
+		</div>
+		<div class="map">
+
+			</div>
+			<p><a href="cuiyabo.github.io">cuiyabo.github.io</a></p>
+	</div>
+	<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 0;"></span> <span id="toTopHover" style="opacity: 0;"> </span></a>
+<!-- contact -->
 </body>
-	<script src="jss/jquery.min.js"></script>
-	<script src="jss/jquery.zySlide.js"></script>
-	<script src="jss/index.js"></script>
 </html>
