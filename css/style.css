@@ -40,7 +40,7 @@ body a{
   margin:0
 }
 .banner {
-  background: url(../images/mee.png) no-repeat 0px 0px;
+  background: url(../images/mm1.png) no-repeat 0px 0px;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -553,6 +553,15 @@ i.insta:hover {
   width: 58%;
   font-size:4em;
 }
+.banner {
+  background: url(../images/mm.png) no-repeat 0px 0px;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  min-height:700px;
+}
 .banner-info h3 {
   width: 60%;
 }
@@ -594,6 +603,15 @@ i.insta:hover {
 .banner-info h2 {
   width: 66%;
   font-size:3.5em;
+}
+.banner {
+  background: url(../images/mm.png) no-repeat 0px 0px;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  min-height:700px;
 }
 .banner-info h3 {
   width: 78%;
@@ -690,6 +708,15 @@ span.glyphicon.glyphicon-wrench{
   width: 86%;
   font-size: 2.5em;
 }
+.banner {
+  background: url(../images/mm2.png) no-repeat 0px 0px;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  min-height:700px;
+}
 .banner-info {
   padding: 6em 0 0;
 }
@@ -737,7 +764,7 @@ div#portfoliolist {
   font-size: 1.5em;
 }
 .banner {
-  background: url(../images/mee.png) no-repeat -49px 0px;
+  background: url(../images/mm.png) no-repeat -49px 0px;
   background-size:cover;
 }
 }
@@ -745,6 +772,15 @@ div#portfoliolist {
 @media (max-width:320px){
 .logo h1 a {
   font-size: 1.2em;
+}
+.banner {
+  background: url(../images/mm2.png) no-repeat 0px 0px;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  min-height:700px;
 }
 .banner-info h2 {
   width: 84%;
@@ -829,7 +865,7 @@ div#portfoliolist {
   font-size: 1.23em;
 }
 .banner {
-  background: url(../images/mee.png) no-repeat -95px 0px;
+  background: url(../images/mm.png) no-repeat -95px 0px;
   background-size:cover;
 }
 }
